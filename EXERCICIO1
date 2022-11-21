@@ -1,0 +1,45 @@
+public class exercicio {
+    public class fornecedor{
+
+        private string nome;
+        private string CNPJ;
+        private string telefone;
+        
+    }
+    
+       
+    
+    public void setNome(string nome){
+    
+    
+     this.nome = nome;
+    
+    }
+    
+    
+    public void getNome(){
+    
+     return(nome);
+    }
+    
+        
+    public void setCNPJ(string CNPJ){
+    
+     this.CNPJ = CNPJ;
+    }
+    
+    public void getCNPJ(){
+    
+     return(CNPJ);
+    }
+    
+    public void getTelefone(string telefone){
+    
+     this.telefone = telefone;
+    }
+    
+    public setTelefone(string telefone){
+      
+     return(telefone);
+    }
+}
